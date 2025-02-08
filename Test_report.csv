@@ -1,0 +1,6 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Product Listing Load,"1. Navigate to product page 2. Wait for products to load","All products display correctly","Products loaded successfully",Passed,Low,Developer,"No issues found"
+TC002,Search Functionality,"1. Enter search term 2. Press search button","Relevant products displayed","Partially matching results shown",Failed,High,Developer,"Need to improve search algorithm"
+TC003,Add to Cart,"1. Select product 2. Click 'Add to Cart'","Product added to cart","Product added successfully",Passed,Medium,Developer,"Verify quantity adjustment"
+TC004,Responsive Design - Mobile,"1. Open site on mobile device 2. Navigate through pages","All elements visible and functional","Some layout issues on smaller screens",Failed,High,Developer,"Adjust CSS for mobile responsiveness"
+TC005,API Error Handling,"1. Simulate network failure 2. Trigger product load","Fallback UI displayed with clear message","Error message shown correctly",Passed,Medium,Developer,"Error messaging clear and user-friendly"
